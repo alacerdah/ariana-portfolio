@@ -17,6 +17,10 @@ export default function Contato({
   whatsapp: string;
   name: string;
 }) {
+  const words = heading.trim().split(" ");
+  const lastWord = words.pop();
+  const headingStart = words.join(" ");
+
   return (
     <>
       <section id="contato" className="reveal px-7 pt-6 md:px-16">
@@ -33,9 +37,9 @@ export default function Contato({
           <div className="relative">
             <div className="font-display mb-4 text-sm tracking-[0.1em] opacity-60">TEM UM PROJETO EM MENTE?</div>
             <h2 className="mb-5 text-[32px] leading-[1.05] sm:text-[60px]">
-              Vamos criar
+              {headingStart}
               <br />
-              juntos?
+              {lastWord}
             </h2>
             <p className="mx-auto mb-8 max-w-[420px] text-sm leading-relaxed opacity-72">{text}</p>
 
