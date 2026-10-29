@@ -29,23 +29,23 @@ export default function Hero({ photo, subheadline }: { photo: string; subheadlin
             <a
               href="#fotos"
               aria-label="Instagram"
-              className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
+              className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
             >
-              <InstagramIcon size={16} />
+              <InstagramIcon size={18} />
             </a>
             <a
               href="#fotos"
               aria-label="YouTube"
-              className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
+              className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
             >
-              <YoutubeIcon size={16} />
+              <YoutubeIcon size={18} />
             </a>
             <a
               href="#fotos"
               aria-label="TikTok"
-              className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
+              className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-ink transition hover:bg-ink hover:text-paper"
             >
-              <TikTokIcon size={14} />
+              <TikTokIcon size={16} />
             </a>
           </div>
         </div>

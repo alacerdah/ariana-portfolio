@@ -50,23 +50,23 @@ export default function Contato({
               <a
                 href={instagram}
                 aria-label="Instagram"
-                className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
+                className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
               >
-                <InstagramIcon size={16} />
+                <InstagramIcon size={18} />
               </a>
               <a
                 href={tiktok}
                 aria-label="TikTok"
-                className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
+                className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
               >
-                <TikTokIcon size={16} />
+                <TikTokIcon size={18} />
               </a>
               <a
                 href={whatsapp}
                 aria-label="WhatsApp"
-                className="flex size-9.5 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
+                className="flex size-11 items-center justify-center rounded-full border-[1.5px] border-current transition hover:bg-paper hover:text-blue"
               >
-                <WhatsAppIcon size={16} />
+                <WhatsAppIcon size={18} />
               </a>
             </div>
           </div>
